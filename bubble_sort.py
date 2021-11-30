@@ -1,7 +1,7 @@
 #Efficient way of using bubble sort if an list of sorted elements are given
 print("Click 1 for simple bubble sort")
 print("Click 2 for store problem")
-m=int(input())
+m= int(input())
 if m==1:
     ls=list(map(int,input().split()))
     n=len(ls)
